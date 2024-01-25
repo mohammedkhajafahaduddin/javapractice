@@ -15,7 +15,9 @@ public class EmiCalculator {
 
         System.out.println("Enter the Duration in months: ");
         double n = sc.nextDouble();
-
+        
+        // ri is rate of interest calculated on monthly basis. (i.e., ri = Rate of Annual interest/12/100. If rate of interest is 10.5% per annum, then r = 10.5/12/100=0.00875)       
+        
         double r = ri / 12 / 100;
 
         double emi = P * r * (Math.pow(1 + r, n) / (Math.pow(1 + r, n) - 1));
