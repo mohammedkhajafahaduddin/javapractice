@@ -47,5 +47,11 @@ public class AssignmentQuestions {
         //TODO : Implement logic here
         return 0;
     }
+    // use for loop to calculate power of given number
+    public static double power(int num,int pow){
+        //TODO : Implement logic here
+        return 0;
+    }
+
 
 }
