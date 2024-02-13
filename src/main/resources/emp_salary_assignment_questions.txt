@@ -1,0 +1,22 @@
+1. Display employees of given country
+2. Display max paid employee(s) of given country
+3. Display total employees of each country along with total salary
+
+
+public void showEmployees(String country) {
+    // Display employees of given country
+}
+public void showMaxPaidEmployees(String country) {
+    // Display max paid employee(s) of given country
+}
+public void showEmpStats() {
+    // Display total employees of each country along with total salary
+
+    Country:
+    Total employees:
+    Total salary:
+}
+
+private double maxSalary(String country) {
+    // return max salary of given country
+}
