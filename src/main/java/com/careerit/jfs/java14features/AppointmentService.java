@@ -47,8 +47,17 @@ public class AppointmentService {
     // get the appointment of the given doctor (patient, date, startTime, endTime)
 
     public List<AppointmentDto> getAppointmentsOf(String doctorName){
-        // Logic
-        return null;
+
+        List<AppointmentDto> list = new ArrayList<>();
+        for(Appointment appointment:appointments){
+            if(appointment.getDoctor().equals(doctorName)){
+                list.add(new AppointmentDto(appointment.getPatient(),
+                        appointment.getDate(),
+                        appointment.getStartTime(),
+                        appointment.getEndTime()));
+            }
+        }
+        return list;
     }
 
 }
