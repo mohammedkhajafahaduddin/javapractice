@@ -7,6 +7,10 @@ import java.util.List;
 public class QuizUtil {
 
 
+    public static List<Question> loadQuestionsFromFile(String fileName){
+        return null;
+    }
+
     public static List<Question> getGKQuestions() {
         Question q1 = new Question(1,
                 "What is the capital of India?",
