@@ -14,7 +14,6 @@ public class AssignmentQuestionEmployeeDetails {
             List<String> employeeNames = service.employeeNames();
             List<Integer> employeeIds =  service.employeeIds();
             List<EmployeeBasicDetails> employeeDetails = service.employeeDetails();
-
             System.out.println("Total salary : "+totalSalary);
             System.out.println("Max salary : "+maxSalary);
             System.out.println("Employee names : "+employeeNames);

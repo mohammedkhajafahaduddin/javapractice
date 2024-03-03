@@ -8,27 +8,60 @@ public class EmployeeDetailsService {
     List<EmployeeDetails> list = new ArrayList<>();
 
     public EmployeeDetailsService(String data) {
-        // Logic to parse the data and add the employee details to the list
+        String[] employeeData = data.split(",");
+        for (String emp : employeeData) {
+            String[] empDetails = emp.split("-");
+            int id = Integer.parseInt(empDetails[0]);
+            String name = empDetails[1];
+            String designation = empDetails[2];
+            double salary = Double.parseDouble(empDetails[3]);
+            list.add(new EmployeeDetails(id, name, designation, salary));
+        }
     }
 
+
+
+
     public double totalSalary() {
-        return 0;
+        double total = 0;
+        for (EmployeeDetails employee : list) {
+            total += employee.salary();
+        }
+        return total;
     }
 
     public double maxSalary() {
-        return 0;
+        double max = 0;
+        for (EmployeeDetails employee : list) {
+            max = Math.max(max, employee.salary());
+        }
+        return max;
     }
 
     public List<String> employeeNames() {
-        return null;
+        List<String> names = new ArrayList<>();
+        for (EmployeeDetails employee : list) {
+            if (!names.contains(employee.name())) {
+                names.add(employee.name());
+            }
+        }
+        return names;
     }
 
     public List<Integer> employeeIds() {
-        return null;
+        List<Integer> ids = new ArrayList<>();
+        for (EmployeeDetails employee : list) {
+            ids.add(employee.id());
+        }
+        return ids;
     }
 
     public List<EmployeeBasicDetails> employeeDetails() {
-        return null;
+        List<EmployeeBasicDetails> basicDetails = new ArrayList<>();
+        for(EmployeeDetails emp : list){
+            basicDetails.add(new EmployeeBasicDetails(emp.id(), emp.name()));
+        }
+        return basicDetails;
     }
 
 }

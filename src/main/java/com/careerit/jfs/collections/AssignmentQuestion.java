@@ -1,6 +1,7 @@
 package com.careerit.jfs.collections;
 
-import java.util.List;
+import java.util.*;
+import java.util.stream.Stream;
 
 public class AssignmentQuestion {
 
@@ -19,14 +20,25 @@ public class AssignmentQuestion {
     // Generate the n random numbers in the range of lb and ub and store random number into list
     // Note: ensure that values in the list should not be repeated
     public static List<Integer> getRandomNumbers(int n,int lb,int ub){
-        return null;
+
+        Set<Integer> uniqueNumbers = new HashSet<>();
+        new Random().ints(n, lb, ub=ub+1).distinct().forEach((int e) -> {uniqueNumbers.add(e);});
+        return new ArrayList<>(uniqueNumbers);
+
     }
 
     public static List<String> getDuplicateNames(List<String> list1, List<String> list2){
-        return null;
+        Set<String> set1 = new HashSet<>(list1);
+        Set<String> set2 = new HashSet<>(list2);
+        Set<String> duplicateSet = new HashSet<>(set1);
+        duplicateSet.retainAll(set2);
+        return new ArrayList<>(duplicateSet);
     }
 
     public static List<String> getUniqueNames(List<String> list1, List<String> list2){
-        return null;
+        List<String> mergedList = new ArrayList<>(list1);
+        mergedList.addAll(list2);
+        Set<String> uniquenames = new HashSet<>(mergedList);
+        return new ArrayList<>(uniquenames);
     }
 }
