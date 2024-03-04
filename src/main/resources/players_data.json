@@ -99,35 +99,35 @@
   },
   {
     "name": "Ravindra Jadeja",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "160000000",
     "country": "India",
     "team": "CSK"
   },
   {
     "name": "Moeen Ali",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "185000000",
     "country": "England",
     "team": "CSK"
   },
   {
     "name": "Shivam Dube",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "40000000",
     "country": "India",
     "team": "CSK"
   },
   {
     "name": "Dwaine Pretorius",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "5000000",
     "country": "South Africa",
     "team": "CSK"
   },
   {
     "name": "Ben Stokes",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "162500000",
     "country": "England",
     "team": "CSK"
@@ -148,7 +148,7 @@
   },
   {
     "name": "Nishant Sindhu",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "2000000",
     "country": "India",
     "team": "CSK"
@@ -169,7 +169,7 @@
   },
   {
     "name": "Bhagath Verma",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "2000000",
     "country": "India",
     "team": "CSK"
@@ -274,42 +274,42 @@
   },
   {
     "name": "Axar Patel",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "90000000",
     "country": "India",
     "team": "DC"
   },
   {
     "name": "Mitchell Marsh",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "65000000",
     "country": "Australia",
     "team": "DC"
   },
   {
     "name": "Lalit Yadav",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "6500000",
     "country": "India",
     "team": "DC"
   },
   {
     "name": "Ripal Patel",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "2000000",
     "country": "India",
     "team": "DC"
   },
   {
     "name": "Vicky Ostwal",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "2000000",
     "country": "India",
     "team": "DC"
   },
   {
     "name": "Aman Khan",
-    "role": "Allrounder",
+    "role": "All-Rounder",
     "amount": "2000000",
     "country": "India",
     "team": "DC"
@@ -449,28 +449,28 @@
   },
   {
     "name": "Hardik Pandya",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "150000000",
     "country": "India",
     "team": "GT"
   },
   {
     "name": "Vijay Shankar",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "14000000",
     "country": "India",
     "team": "GT"
   },
   {
     "name": "Jayant Yadav",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "17000000",
     "country": "India",
     "team": "GT"
   },
   {
     "name": "Rahul Tewatia",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "90000000",
     "country": "India",
     "team": "GT"
@@ -484,7 +484,7 @@
   },
   {
     "name": "Odean Smith",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "5000000",
     "country": "West Indies",
     "team": "GT"
@@ -568,28 +568,28 @@
   },
   {
     "name": "Andre Russell",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "120000000",
     "country": "West Indies",
     "team": "KKR"
   },
   {
     "name": "Venkatesh Iyer",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "80000000",
     "country": "India",
     "team": "KKR"
   },
   {
     "name": "Sunil Narine",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "60000000",
     "country": "West Indies",
     "team": "KKR"
   },
   {
     "name": "Anukul Roy",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "2000000",
     "country": "India",
     "team": "KKR"
@@ -645,7 +645,7 @@
   },
   {
     "name": "David Wiese",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "10000000",
     "country": "Namibia",
     "team": "KKR"
@@ -673,7 +673,7 @@
   },
   {
     "name": "Shakib Al Hasan",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "15000000",
     "country": "Bangladesh",
     "team": "KKR"
@@ -729,49 +729,49 @@
   },
   {
     "name": "Marcus Stoinis",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "92000000",
     "country": "Australia",
     "team": "LSG"
   },
   {
     "name": "Kyle Mayers",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "5000000",
     "country": "West Indies",
     "team": "LSG"
   },
   {
     "name": "Karan Sharma",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "2000000",
     "country": "India",
     "team": "LSG"
   },
   {
     "name": "K Gowtham",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "9000000",
     "country": "India",
     "team": "LSG"
   },
   {
     "name": "Ayush Badoni",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "2000000",
     "country": "India",
     "team": "LSG"
   },
   {
     "name": "Deepak Hooda",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "57500000",
     "country": "India",
     "team": "LSG"
   },
   {
     "name": "Krunal Pandya",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "82500000",
     "country": "India",
     "team": "LSG"
@@ -799,14 +799,14 @@
   },
   {
     "name": "Romario Shepherd",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "5000000",
     "country": "West Indies",
     "team": "LSG"
   },
   {
     "name": "Daniel Sams",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "7500000",
     "country": "Australia",
     "team": "LSG"
@@ -820,14 +820,14 @@
   },
   {
     "name": "Prerak Mankad",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "2000000",
     "country": "India",
     "team": "LSG"
   },
   {
     "name": "Swapnil Singh",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "2000000",
     "country": "India",
     "team": "LSG"
@@ -841,7 +841,7 @@
   },
   {
     "name": "Yudhvir Charak",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "2000000",
     "country": "India",
     "team": "LSG"
@@ -911,21 +911,21 @@
   },
   {
     "name": "Hrithik Shokeen",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "2000000",
     "country": "India",
     "team": "MI"
   },
   {
     "name": "Arjun Tendulkar",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "3000000",
     "country": "India",
     "team": "MI"
   },
   {
     "name": "Tim David",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "82500000",
     "country": "Singapore",
     "team": "MI"
@@ -939,7 +939,7 @@
   },
   {
     "name": "Arshad Khan",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "2000000",
     "country": "India",
     "team": "MI"
@@ -960,7 +960,7 @@
   },
   {
     "name": "Cameron Green",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "175000000",
     "country": "Australia",
     "team": "MI"
@@ -981,21 +981,21 @@
   },
   {
     "name": "Duan Jansen",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "2000000",
     "country": "South Africa",
     "team": "MI"
   },
   {
     "name": "Shams Mulani",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "2000000",
     "country": "India",
     "team": "MI"
   },
   {
     "name": "Nehal Wadhera",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "2000000",
     "country": "India",
     "team": "MI"
@@ -1114,21 +1114,21 @@
   },
   {
     "name": "Riyan Parag",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "38000000",
     "country": "India",
     "team": "RR"
   },
   {
     "name": "Ravichandran Ashwin",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "50000000",
     "country": "India",
     "team": "RR"
   },
   {
     "name": "Jason Holder",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "57500000",
     "country": "West Indies",
     "team": "RR"
@@ -1170,7 +1170,7 @@
   },
   {
     "name": "Akash Vashisht",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "2000000",
     "country": "India",
     "team": "RR"
@@ -1282,35 +1282,35 @@
   },
   {
     "name": "Glenn Maxwell",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "110000000",
     "country": "Australia",
     "team": "RCB"
   },
   {
     "name": "David Willey",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "20000000",
     "country": "England",
     "team": "RCB"
   },
   {
     "name": "Mahipal Lomror",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "9500000",
     "country": "India",
     "team": "RCB"
   },
   {
     "name": "Shahbaz Ahmed",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "24000000",
     "country": "India",
     "team": "RCB"
   },
   {
     "name": "Wanindu Hasaranga",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "107500000",
     "country": "Sri Lanka",
     "team": "RCB"
@@ -1324,7 +1324,7 @@
   },
   {
     "name": "Will Jacks",
-    "role": "Allrounder",
+    "role": "All-Rounder",
     "amount": "32000000",
     "country": "England",
     "team": "RCB"
@@ -1338,7 +1338,7 @@
   },
   {
     "name": "Manoj Bhandage",
-    "role": "Allrounder",
+    "role": "All-Rounder",
     "amount": "2000000",
     "country": "India",
     "team": "RCB"
@@ -1359,7 +1359,7 @@
   },
   {
     "name": "R Sonu Yadav",
-    "role": "Allrounder",
+    "role": "All-Rounder",
     "amount": "2000000",
     "country": "India",
     "team": "RCB"
@@ -1422,28 +1422,28 @@
   },
   {
     "name": "Abdul Samad",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "40000000",
     "country": "India",
     "team": "SRH"
   },
   {
     "name": "Marco Jansen",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "42000000",
     "country": "South Africa",
     "team": "SRH"
   },
   {
     "name": "Abhishek Sharma",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "65000000",
     "country": "India",
     "team": "SRH"
   },
   {
     "name": "Washington Sundar",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "87500000",
     "country": "India",
     "team": "SRH"
@@ -1485,21 +1485,21 @@
   },
   {
     "name": "Vivrant Sharma",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "26000000",
     "country": "India",
     "team": "SRH"
   },
   {
     "name": "Samarth Vyas",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "2000000",
     "country": "India",
     "team": "SRH"
   },
   {
     "name": "Sanvir Singh",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "2000000",
     "country": "India",
     "team": "SRH"
@@ -1513,7 +1513,7 @@
   },
   {
     "name": "Mayank Dagar",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "18000000",
     "country": "India",
     "team": "SRH"
@@ -1625,42 +1625,42 @@
   },
   {
     "name": "Baltej Singh",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "2000000",
     "country": "India",
     "team": "PBKS"
   },
   {
     "name": "Liam Livingstone",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "115000000",
     "country": "England",
     "team": "PBKS"
   },
   {
     "name": "Rishi Dhawan",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "5500000",
     "country": "India",
     "team": "PBKS"
   },
   {
     "name": "Atharva Taide",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "2000000",
     "country": "India",
     "team": "PBKS"
   },
   {
     "name": "Sam Curran",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "185000000",
     "country": "England",
     "team": "PBKS"
   },
   {
     "name": "Sikandar Raza",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "5000000",
     "country": "Zimbabwe",
     "team": "PBKS"
@@ -1681,14 +1681,14 @@
   },
   {
     "name": "Mohit Rathee",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "2000000",
     "country": "India",
     "team": "PBKS"
   },
   {
     "name": "Shivam Singh",
-    "role": "All-rounder",
+    "role": "All-Rounder",
     "amount": "2000000",
     "country": "India",
     "team": "PBKS"
