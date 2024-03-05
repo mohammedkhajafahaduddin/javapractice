@@ -22,15 +22,5 @@ public class IplStatsManager {
         List<TeamRoleAmountRecord> teamRoleAmountRecords = iplStatsService.roleAmountByTeam("RCB");
         System.out.println("Role amount by team : "+teamRoleAmountRecords);
 
-        List<TeamAmountRecord> teamAmountRecords = iplStatsService.amountByTeam();
-        System.out.println(teamAmountRecords);
-
-        List<TeamCountRecord> teamCountRecords = iplStatsService.playerCountOfEachTeam();
-        System.out.println(teamCountRecords);
-
-        List<Player> topPlayerList = iplStatsService.getTopPaidPlayers(5);
-        System.out.println(topPlayerList);
-
-
     }
 }
