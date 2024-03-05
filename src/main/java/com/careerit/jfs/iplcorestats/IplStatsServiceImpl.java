@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 public class IplStatsServiceImpl implements IplStatsService {
 
@@ -71,12 +72,28 @@ public class IplStatsServiceImpl implements IplStatsService {
 
     @Override
     public Map<String, List<Player>> getTopPaidPlayersOfEachTeam() {
-        return null;
+        // Group the players by team
+        Map<String,List<Player>> playerAndTeamMap = players.stream()
+                .collect(Collectors.groupingBy(Player::getTeam));
+
+        Map<String, List<Player>> topPaidPlayersMap = new HashMap<>();
+        for (Map.Entry<String, List<Player>> entry : playerAndTeamMap.entrySet()) {
+            List<Player> players = entry.getValue();
+            double maxAmount = maxAmount(players);
+            List<Player> topPaidPlayers = players.stream()
+                    .filter(player -> player.getAmount() == maxAmount)
+                    .toList();
+            topPaidPlayersMap.put(entry.getKey(), topPaidPlayers);
+        }
+        return topPaidPlayersMap;
     }
 
     @Override
     public List<Player> getTopPaidPlayers() {
-        return null;
+         double maxAmount = maxAmount(players);
+         return players.stream()
+                 .filter(player -> player.getAmount() == maxAmount)
+                 .toList();
     }
 
     @Override
@@ -93,5 +110,12 @@ public class IplStatsServiceImpl implements IplStatsService {
             teamRoleCountList.add(teamRoleCountDto);
         }
         return teamRoleCountList;
+    }
+
+    private double maxAmount(List<Player> players) {
+        return players.stream()
+                .mapToDouble(Player::getAmount)
+                .max()
+                .orElse(0);
     }
 }
