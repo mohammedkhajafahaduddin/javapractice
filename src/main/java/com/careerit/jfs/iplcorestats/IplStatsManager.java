@@ -13,11 +13,14 @@ public class IplStatsManager {
         // 2. Get players by team name
         String teamName = "RCB";
         List<Player> players = iplStatsService.playersByTeam(teamName);
-        System.out.println("The team "+teamName+" has "+players.size()+" players");
+        //System.out.println("The team "+teamName+" has "+players.size()+" players");
 
         // 3. Get role count by team name
         List<TeamRoleCountRecord> teamRoleCountRecords = iplStatsService.roleCountByTeam(teamName);
         System.out.println("Role count by team : "+teamRoleCountRecords);
+
+        List<TeamRoleAmountRecord> teamRoleAmountRecords = iplStatsService.roleAmountByTeam("RCB");
+        System.out.println("Role amount by team : "+teamRoleAmountRecords);
 
     }
 }

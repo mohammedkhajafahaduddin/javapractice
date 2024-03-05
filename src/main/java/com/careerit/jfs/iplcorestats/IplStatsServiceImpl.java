@@ -52,12 +52,22 @@ public class IplStatsServiceImpl implements IplStatsService {
             String role = player.getRole();
             roleCountMap.put(role,roleCountMap.getOrDefault(role,0)+1);
         }
+       // roleCountMap.forEach((k,v) -> System.out.println(k+" : "+v));
         return getTeamRoleCountRecords(teamName, roleCountMap);
     }
 
     @Override
     public List<TeamRoleAmountRecord> roleAmountByTeam(String teamName) {
-        return null;
+        List<Player> teamPlayers = playersByTeam(teamName);
+        Map<String, Integer> roleAmountMap = new HashMap<>();
+        for (Player player : teamPlayers){
+            Integer amount = (int) player.getAmount();
+            //System.out.println(amount);
+            String role = player.getRole();
+            roleAmountMap.put(role,roleAmountMap.getOrDefault(role,0)+amount);
+        }
+            //roleAmountMap.forEach((k,v) -> System.out.println(k+" : "+v));
+        return getTeamRoleAmountRecord(teamName,roleAmountMap);
     }
 
     @Override
@@ -110,6 +120,18 @@ public class IplStatsServiceImpl implements IplStatsService {
             teamRoleCountList.add(teamRoleCountDto);
         }
         return teamRoleCountList;
+    }
+
+    private  static  List<TeamRoleAmountRecord> getTeamRoleAmountRecord(String teamName, Map<String, Integer> roleAmountMap){
+        List<TeamRoleAmountRecord> teamRoleAmountList = new ArrayList<>();
+        for (Map.Entry<String, Integer> entry : roleAmountMap.entrySet()){
+            String role = entry.getKey();
+            int amount = entry.getValue();
+            TeamRoleAmountRecord teamRoleAmountRecord = new TeamRoleAmountRecord(teamName,role,amount);
+            teamRoleAmountList.add(teamRoleAmountRecord);
+
+        }
+       return teamRoleAmountList;
     }
 
     private double maxAmount(List<Player> players) {
