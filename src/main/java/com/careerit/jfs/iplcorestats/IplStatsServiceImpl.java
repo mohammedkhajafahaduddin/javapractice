@@ -1,9 +1,6 @@
 package com.careerit.jfs.iplcorestats;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class IplStatsServiceImpl implements IplStatsService {
@@ -72,12 +69,32 @@ public class IplStatsServiceImpl implements IplStatsService {
 
     @Override
     public List<TeamAmountRecord> amountByTeam() {
-        return null;
+        Map<String, Integer> teamAmountMap = new HashMap<>();
+        for (Player player : players) {
+            String teamName = player.getTeam();
+            int amount = teamAmountMap.getOrDefault(teamName, 0);
+            amount += player.getAmount();
+            teamAmountMap.put(teamName, amount);
+        }
+
+        List<TeamAmountRecord> teamAmountRecords = new ArrayList<>();
+        for (Map.Entry<String, Integer> entry : teamAmountMap.entrySet()) {
+            teamAmountRecords.add(new TeamAmountRecord(entry.getKey(), entry.getValue()));
+        }
+
+        return teamAmountRecords;
     }
 
-    @Override
     public List<TeamCountRecord> playerCountOfEachTeam() {
-        return null;
+        Map<String, Long> teamPlayerCountMap = players.stream()
+                .collect(Collectors.groupingBy(Player::getTeam, Collectors.counting()));
+
+        List<TeamCountRecord> teamCountRecords = new ArrayList<>();
+        for (Map.Entry<String, Long> entry : teamPlayerCountMap.entrySet()) {
+            teamCountRecords.add(new TeamCountRecord(entry.getKey(), entry.getValue().intValue()));
+        }
+
+        return teamCountRecords;
     }
 
     @Override
@@ -108,7 +125,10 @@ public class IplStatsServiceImpl implements IplStatsService {
 
     @Override
     public List<Player> getTopPaidPlayers(int n) {
-        return null;
+        return players.stream()
+                .sorted(Comparator.comparingDouble(Player::getAmount).reversed())
+                .limit(n)
+                .collect(Collectors.toList());
     }
 
     private static List<TeamRoleCountRecord> getTeamRoleCountRecords(String teamName, Map<String, Integer> roleCountMap) {
